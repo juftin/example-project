@@ -1,0 +1,18 @@
+example\_project.config package
+===============================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   example_project.config.file_config
+
+Module contents
+---------------
+
+.. automodule:: example_project.config
+   :members:
+   :undoc-members:
+   :show-inheritance:

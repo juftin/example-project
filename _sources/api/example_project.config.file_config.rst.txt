@@ -1,0 +1,7 @@
+example\_project.config.file\_config module
+===========================================
+
+.. automodule:: example_project.config.file_config
+   :members:
+   :undoc-members:
+   :show-inheritance:

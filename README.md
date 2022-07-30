@@ -2,13 +2,8 @@
 
 Brief description of the project
 
-#### Check Out the [Docs](https://juftin.github.io/example-project/)
-#### Looking to contribute? See the [Contributing Guide](docs/source/contributing.md)
-#### See the [Changelog](https://github.com/juftin/example-project/releases)
+#### This is the documentation branch of example-project
 
-___________
-___________
+### [See the Documentation Website](https://juftin.github.io/example-project)
 
-<br/>
-
-<p align="center"><a href="https://github.com/juftin"><img src="https://raw.githubusercontent.com/juftin/juftin/main/static/juftin.png" width="120" height="120" alt="logo"></p>
+### [See the Latest Changes](https://github.com/juftin/example-project)
