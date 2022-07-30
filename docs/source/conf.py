@@ -35,7 +35,7 @@ extensions = [
     "sphinx_autodoc_typehints",
     "sphinx_autodoc_defaultargs",
     "sphinx_click",
-    ]
+]
 
 myst_heading_anchors = 5
 myst_enable_extensions = [
@@ -91,4 +91,3 @@ autodoc_pydantic_settings_show_json = False
 
 always_document_default_args = True
 docstring_default_arg_substitution = "**[Default]:**"
-
