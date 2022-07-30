@@ -7,6 +7,7 @@ updates:
     labels:
     -   dependencies
     -   BUMP_PATCH
+    -   ci
 -   package-ecosystem: pip
     directory: /.github/workflows
     schedule:
@@ -14,6 +15,8 @@ updates:
     labels:
     -   dependencies
     -   BUMP_PATCH
+    -   ci
+    -   python
 -   package-ecosystem: pip
     directory: /docs
     schedule:
@@ -21,6 +24,8 @@ updates:
     labels:
     -   dependencies
     -   BUMP_PATCH
+    -   documentation
+    -   python
 -   package-ecosystem: pip
     directory: /
     schedule:
@@ -31,3 +36,4 @@ updates:
     labels:
     -   dependencies
     -   BUMP_PATCH
+    -   python
