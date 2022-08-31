@@ -98,6 +98,7 @@ jobs:
                 REPLACED_VERSION_FILE_TEXT=$(grep -F -v "__version__" example_project/_version.py)
                 echo "${REPLACED_VERSION_FILE_TEXT}" > example_project/_version.py
                 echo "__version__ = \""${PROJECT_VERSION}\""" >> example_project/_version.py
+                echo PROJECT_VERSION='${PROJECT_VERSION}' >> ${GITHUB_ENV}
         -   uses: EndBug/add-and-commit@v9
             with:
                 default_author: github_actions
