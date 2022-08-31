@@ -7,6 +7,29 @@ on:
 
 jobs:
 
+
+    test-echo:
+        name: version-bump
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out the repository
+              uses: actions/checkout@v3
+              with:
+                  fetch-depth: 2
+                  ref: {{ cookiecutter.default_branch }}
+            -   name: Echo GitHub
+                run: echo $JSON
+                env:
+                    JSON: ${{ toJSON(github) }}
+            -   name: Echo Event
+                run: echo $JSON
+                env:
+                    JSON: ${{ toJSON(github.event) }}
+            -   name: Echo Commit
+                run: echo $JSON
+                env:
+                    JSON: ${{ toJSON(github.event.head_commit) }}
+
     version-bump:
         name: version-bump
         runs-on: ubuntu-latest
