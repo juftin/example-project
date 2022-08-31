@@ -5,4 +5,4 @@ example-project Version file
 __author__ = "Justin Flannery"
 __email__ = "juftin@juftin.com"
 __application__ = "example-project"
-__version__ = "0.0.6"
+__version__ = "0.0.7"

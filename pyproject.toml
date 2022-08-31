@@ -5,7 +5,7 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry]
 name = "example-project"
 description = "Brief description of the project"
-version = "0.0.6"
+version = "0.0.7"
 authors = ["Justin Flannery <juftin@juftin.com>"]
 license = "MIT"
 readme = "README.md"
