@@ -95,7 +95,7 @@ jobs:
         -   name: Update Version Variable
             run: |
                 PROJECT_VERSION=$(poetry version --short)
-                PROJECT_VERSION=${PROJECT_VERSION} >> $GITHUB_ENV
+                echo PROJECT_VERSION=${PROJECT_VERSION} >> $GITHUB_ENV
                 REPLACED_VERSION_FILE_TEXT=$(grep -F -v "__version__" example_project/_version.py)
                 echo "${REPLACED_VERSION_FILE_TEXT}" > example_project/_version.py
                 echo "__version__ = \""${PROJECT_VERSION}\""" >> example_project/_version.py
